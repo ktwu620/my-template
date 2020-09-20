@@ -1,0 +1,12 @@
+
+/* This prevents padding from adding extra width or extra height to the page.*/
+html {
+  box-sizing: border-box;
+}
+
+body {
+  /* zero on all four sides*/
+  margin: 0;
+  /* viewport height, full height of the entire window. We want it to always stretch our background, at least the full height of the screen*/
+  min-height: 100vh;
+}
